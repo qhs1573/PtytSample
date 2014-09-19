@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sample_test">
+     	<item>@string/string_sample_test</item>
+     	<item>@string/string_sample_test_time</item>
+     	<item>@string/string_sample_test_desc</item>
+    </string-array>
+    <string-array name="sample_bubblechart">
+     	<item>@string/string_bubble_title</item>
+     	<item>@string/string_bubble_time</item>
+     	<item>@string/string_bubble_desc</item>
+    </string-array>
+    <string-array name="sample_message">
+        <item>@string/string_message_title</item>
+     	<item>@string/string_message_time</item>
+     	<item>@string/string_message_desc</item>
+    </string-array>
+    
+     <string-array name="sample_date">
+        <item>@string/string_date_title</item>
+     	<item>@string/string_date_time</item>
+     	<item>@string/string_date_desc</item>
+    </string-array>
+    
+      <string-array name="sample_listView">
+        <item>@string/string_list_show_title</item>
+     	<item>@string/string_list_show_time</item>
+     	<item>@string/string_list_show_desc</item>
+    </string-array>
+     <string-array name="sample_remover_handler">
+        <item>@string/string_handler_remover_title</item>
+     	<item>@string/string_handler_remover_time</item>
+     	<item>@string/string_handler_remover_desc</item>
+    </string-array>
+    <string-array name="sample_get_jpsinfo">
+        <item>@string/string_jps_title</item>
+     	<item>@string/string_jps_time</item>
+     	<item>@string/string_jps_desc</item>
+    </string-array>
+    <string-array name="sample_listviewselect_info">
+        <item>@string/string_listviewselect_title</item>
+     	<item>@string/string_listviewselect_time</item>
+     	<item>@string/string_listviewselect_desc</item>
+    </string-array>
+    <string-array name="sample_aidl_info">
+        <item>@string/string_aidl_title</item>
+     	<item>@string/string_aidl_time</item>
+     	<item>@string/string_aidl_desc</item>
+    </string-array>
+</resources>

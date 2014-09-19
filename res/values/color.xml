@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bubblechart_activity_line">#505050</color>
+    <color name="bubblechart_activity_bg">#E4E4E4</color>
+    <color name="message_list_color">#A2A2A2</color>
+    <color name="message_list_name">#696969</color>
+</resources>

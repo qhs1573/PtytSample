@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@drawable/base_top_bg"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/bubblechart_activity_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_bubble__name"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/bubblechart_activity_lv_mesgList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent" >
+        </ListView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/bubblechart_activity_line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bubblechart_activity_bg"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/bubblechart_activity_et_message"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="10dip"
+            android:paddingLeft="5dip"
+            android:maxLines="2"
+            android:layout_weight="1"
+            android:background="@drawable/bubblechart_activity_edit_selector"
+            android:hint="@string/string_bubblechart_mesg" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bubblechart_activity_btn_takephotos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_camera_selector" />
+
+            <Button
+                android:id="@+id/bubblechart_activity_btn_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/btn_send_selector"
+                android:text="@string/string_bubblechart_send" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

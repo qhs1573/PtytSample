@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">PtytSample</string>
+    <string name="string_sample_list">测试小例子</string>
+	<string name="string_sample_test">Hello word!</string>
+	<string name="string_sample_test_time">2014/7/29</string>
+	<string name="string_sample_test_desc">测试使用的第一例子</string>
+	<string name="string_bubblechart_mesg"> </string>
+	<string name="string_bubblechart_send">发送</string>
+	<string name="string_bubble_title">QQ气泡列表显示</string>
+	<string name="string_bubble_time">2014/7/30</string>
+	<string name="string_bubble_desc">QQ聊天界面气泡列表显示的例子</string>
+	<string name="string_bubble__name">刘队</string>
+	<string name="string_message_title">9100消息列表</string>
+	<string name="string_message_time">2014/7/30</string>
+	<string name="string_message_desc">消息显示列表包括时间格式化</string>
+	<string name="string_message_name">信息</string>
+	<string name="string_message_new">新建</string>
+	<string name="string_date_title">时间格式化</string>
+	<string name="string_date_time">2014/7/31</string>
+	<string name="string_date_desc">时间格式化为昨天 前天 今天的例子</string>
+	<string name="string_list_show_title">listView隐藏展开的例子</string>
+	<string name="string_list_show_time">2014/8/1</string>
+	<string name="string_list_show_desc">listView隐藏展开的例子的小例子</string>
+	<string name="string_handler_remover_title">Handler退出异常</string>
+	<string name="string_handler_remover_time">2014/9/3</string>
+	<string name="string_handler_remover_desc">Handler退出后还能发送消息出去导致出现null sending message to a Handler on a dead thread异常</string>
+	<string name="string_starthandler">启动Handler</string>
+	<string name="string_stophandler">停止Handler</string>
+	<string name="string_jps_title">listView隐藏展开的例子</string>
+	<string name="string_jps_time">2014/8/1</string>
+	<string name="string_jps_desc">listView隐藏展开的例子的小例子</string>
+	<string name="string_listviewselect_title">listView选中</string>
+	<string name="string_listviewselect_time">2014/9/11</string>
+	<string name="string_listviewselect_desc">listView选中的小例子</string>
+	<string name="string_common_ok">确定</string>
+	<string name="string_common_cancel">取消</string>
+	<string name="string_common_call_back">回调函数</string>
+	<string name="string_aidl_title">AIDL使用</string>
+	<string name="string_aidl_time">2014/9/18</string>
+	<string name="string_aidl_desc">AIDL通信的小例子</string>
+</resources>
