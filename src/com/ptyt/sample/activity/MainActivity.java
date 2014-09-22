@@ -89,6 +89,11 @@ public class MainActivity extends BaseActivity implements OnItemClickListener,
 			intent.setClass(this, AidlActivity.class);
 			startActivity(intent);
 			break;
+			
+		case 9:
+			intent.setClass(this, LauncherActivity.class);
+			startActivity(intent);
+			break;
 		}
 
 	}

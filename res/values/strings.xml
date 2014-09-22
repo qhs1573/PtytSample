@@ -39,4 +39,7 @@
 	<string name="string_aidl_title">AIDL使用</string>
 	<string name="string_aidl_time">2014/9/18</string>
 	<string name="string_aidl_desc">AIDL通信的小例子</string>
+	<string name="string_launcher_title">Launcher主界面</string>
+	<string name="string_launcher_time">2014/9/22</string>
+	<string name="string_launcher_desc">Launcher主界面</string>
 </resources>

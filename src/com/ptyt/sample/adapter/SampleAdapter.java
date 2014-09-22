@@ -27,7 +27,8 @@ public class SampleAdapter extends BaseAdapter {
 			R.array.sample_get_jpsinfo,
 			R.array.sample_remover_handler,
 			R.array.sample_listviewselect_info,
-			R.array.sample_aidl_info
+			R.array.sample_aidl_info,
+			R.array.sample_launcher_info
 	};
 	
 	public SampleAdapter(Activity act){

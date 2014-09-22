@@ -47,4 +47,9 @@
      	<item>@string/string_aidl_time</item>
      	<item>@string/string_aidl_desc</item>
     </string-array>
+    <string-array name="sample_launcher_info">
+        <item>@string/string_launcher_title</item>
+     	<item>@string/string_launcher_time</item>
+     	<item>@string/string_launcher_desc</item>
+    </string-array>
 </resources>
