@@ -1,7 +1,13 @@
-.classpath
-.project
-
-.settings/
+# generated files
 bin/
 gen/
+doc/
+obj/
+proguard/
 
+# Local configuration file (sdk path, etc)
+#project.properties
+.settings/
+.classpath
+.project
+lint.xml
