@@ -28,7 +28,6 @@ public class HandlerActivity extends BaseActivity {
 	}
 
 	public void stopHandler(View v) {
-		ToastUtil.getToast().showMessage(this, "stopHandler", -1);
 		isStop = false;
 		if (handler != null) {
 			handler.removeMessages(position);
@@ -47,10 +46,8 @@ public class HandlerActivity extends BaseActivity {
 	}
 
 	public void startHandler(View v) {
-		if(myThread == null){
-			myThread = new MyThread("myThread");
-			myThread.start();
-		}
+		myThread = new MyThread("myThread");
+		myThread.start();
 		isStop = true;
 		new Thread() {
 			public void run() {
@@ -68,6 +65,10 @@ public class HandlerActivity extends BaseActivity {
 			}
 		}.start();
 	}
+	
+	public void sendMessage(View view){
+		handler.sendEmptyMessage(0);
+	}
 
 	class MyThread extends Thread {
 
@@ -77,9 +78,15 @@ public class HandlerActivity extends BaseActivity {
 
 		@Override
 		public void run() {
-			Looper.prepare();
-			handler = new MyHandler();
-			Looper.loop();
+			try {
+				Looper.prepare();
+				handler = new MyHandler();
+				Looper.loop();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}finally{
+				ToastUtil.getToast().showMessage(HandlerActivity.this, "finally", -1);
+			}
 		}
 
 		public void quit() {
