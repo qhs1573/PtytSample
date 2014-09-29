@@ -3,40 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    android:orientation="horizontal" >
+    android:orientation="vertical" >
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:onClick="startHandler"
         android:text="@string/string_starthandler" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:onClick="stopHandler"
         android:text="@string/string_stophandler" />
-
-    <TextView
-        android:id="@+id/tv_thread_mount"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/white"
-        android:orientation="vertical" >
-
-        <ScrollView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" >
-
-            <TextView
-                android:id="@+id/tv_show_message"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent" />
-        </ScrollView>
-    </LinearLayout>
+    
 
 </LinearLayout>

@@ -9,8 +9,6 @@ import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.widget.Scroller;
 
-import com.ptyt.sample.utils.GlobalOldLauncher;
-
 /**
  * 仿Launcher中的WorkSapce，可以左右滑动切换屏幕的类 该类继承ViewGroup容器类以实现自己需要的布局显示
  */

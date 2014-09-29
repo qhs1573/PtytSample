@@ -27,6 +27,7 @@
 	<string name="string_handler_remover_desc">Handler退出后还能发送消息出去导致出现null sending message to a Handler on a dead thread异常</string>
 	<string name="string_starthandler">启动Handler</string>
 	<string name="string_stophandler">停止Handler</string>
+	<string name="string_sendhandler">发送消息</string>
 	<string name="string_jps_title">listView隐藏展开的例子</string>
 	<string name="string_jps_time">2014/8/1</string>
 	<string name="string_jps_desc">listView隐藏展开的例子的小例子</string>
