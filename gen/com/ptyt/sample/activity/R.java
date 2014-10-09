@@ -8,24 +8,30 @@
 package com.ptyt.sample.activity;
 
 public final class R {
+    public static final class anim {
+        public static final int alpha=0x7f040000;
+        public static final int grid_light=0x7f040001;
+        public static final int out=0x7f040002;
+    }
     public static final class array {
-        public static final int sample_aidl_info=0x7f040008;
-        public static final int sample_bubblechart=0x7f040001;
-        public static final int sample_date=0x7f040003;
-        public static final int sample_get_jpsinfo=0x7f040006;
-        public static final int sample_listView=0x7f040004;
-        public static final int sample_listviewselect_info=0x7f040007;
-        public static final int sample_message=0x7f040002;
-        public static final int sample_remover_handler=0x7f040005;
-        public static final int sample_test=0x7f040000;
+        public static final int sample_aidl_info=0x7f050008;
+        public static final int sample_bubblechart=0x7f050001;
+        public static final int sample_date=0x7f050003;
+        public static final int sample_get_jpsinfo=0x7f050006;
+        public static final int sample_launcher_info=0x7f050009;
+        public static final int sample_listView=0x7f050004;
+        public static final int sample_listviewselect_info=0x7f050007;
+        public static final int sample_message=0x7f050002;
+        public static final int sample_remover_handler=0x7f050005;
+        public static final int sample_test=0x7f050000;
     }
     public static final class attr {
     }
     public static final class color {
-        public static final int bubblechart_activity_bg=0x7f050001;
-        public static final int bubblechart_activity_line=0x7f050000;
-        public static final int message_list_color=0x7f050002;
-        public static final int message_list_name=0x7f050003;
+        public static final int bubblechart_activity_bg=0x7f060001;
+        public static final int bubblechart_activity_line=0x7f060000;
+        public static final int message_list_color=0x7f060002;
+        public static final int message_list_name=0x7f060003;
     }
     public static final class drawable {
         public static final int base_top_bg=0x7f020000;
@@ -45,54 +51,60 @@ public final class R {
         public static final int bubblechart_activity_edit_selector=0x7f02000e;
         public static final int calling_user=0x7f02000f;
         public static final int default_user_icon=0x7f020010;
-        public static final int group_layout_group_selected=0x7f020011;
-        public static final int home_bg=0x7f020012;
-        public static final int ic_launcher=0x7f020013;
-        public static final int icon_concant_left=0x7f020014;
-        public static final int icon_message_new=0x7f020015;
-        public static final int icon_top_message=0x7f020016;
-        public static final int item_contact_choose=0x7f020017;
+        public static final int grid_green_light=0x7f020011;
+        public static final int group_layout_group_selected=0x7f020012;
+        public static final int home_bg=0x7f020013;
+        public static final int home_phone_book=0x7f020014;
+        public static final int ic_launcher=0x7f020015;
+        public static final int icon_concant_left=0x7f020016;
+        public static final int icon_message_new=0x7f020017;
+        public static final int icon_top_message=0x7f020018;
+        public static final int item_contact_choose=0x7f020019;
+        public static final int page_indicate=0x7f02001a;
+        public static final int page_indicate_selected=0x7f02001b;
     }
     public static final class id {
-        public static final int btn_mcall_back=0x7f080002;
-        public static final int btn_mcancel=0x7f080001;
-        public static final int btn_mok=0x7f080000;
-        public static final int bubblechart_activity_btn_send=0x7f080009;
-        public static final int bubblechart_activity_btn_takephotos=0x7f080008;
-        public static final int bubblechart_activity_et_message=0x7f080007;
-        public static final int bubblechart_activity_lv_mesgList=0x7f080006;
-        public static final int bubblechart_activity_tv_title=0x7f080005;
-        public static final int button1=0x7f080025;
-        public static final int button2=0x7f080026;
-        public static final int hint_image=0x7f08001d;
-        public static final int image_mascot=0x7f08001f;
-        public static final int image_uefa=0x7f08001e;
-        public static final int item_message_list_ll_root=0x7f080014;
-        public static final int item_message_list_tv_msgcontent=0x7f080017;
-        public static final int item_message_list_tv_time=0x7f080016;
-        public static final int item_message_list_tv_username=0x7f080015;
-        public static final int iv_btn_menu=0x7f080012;
-        public static final int ll_contact_menu=0x7f080013;
-        public static final int ll_contact_root_view=0x7f08000e;
-        public static final int ll_rootview=0x7f080004;
-        public static final int lv_list_sample=0x7f080020;
-        public static final int lv_mList=0x7f080021;
-        public static final int message_activity_ll_new=0x7f080022;
-        public static final int message_activity_lv_msglist=0x7f080023;
-        public static final int textView=0x7f08001c;
-        public static final int tv_base_title=0x7f080003;
-        public static final int tv_chatcontent=0x7f080019;
-        public static final int tv_contact_phone_number=0x7f080011;
-        public static final int tv_contact_user_icon=0x7f08000f;
-        public static final int tv_contact_username=0x7f080010;
-        public static final int tv_content=0x7f080024;
-        public static final int tv_jps=0x7f08000b;
-        public static final int tv_sample_datetime=0x7f08001b;
-        public static final int tv_sample_title=0x7f08001a;
-        public static final int tv_sendtime=0x7f080018;
-        public static final int tv_show_formatdate=0x7f08000a;
-        public static final int tv_show_message=0x7f08000d;
-        public static final int tv_thread_mount=0x7f08000c;
+        public static final int btn_mcall_back=0x7f090002;
+        public static final int btn_mcancel=0x7f090001;
+        public static final int btn_mok=0x7f090000;
+        public static final int bubblechart_activity_btn_send=0x7f090009;
+        public static final int bubblechart_activity_btn_takephotos=0x7f090008;
+        public static final int bubblechart_activity_et_message=0x7f090007;
+        public static final int bubblechart_activity_lv_mesgList=0x7f090006;
+        public static final int bubblechart_activity_tv_title=0x7f090005;
+        public static final int button1=0x7f090027;
+        public static final int button2=0x7f090028;
+        public static final int hint_image=0x7f09001f;
+        public static final int image_mascot=0x7f090021;
+        public static final int image_uefa=0x7f090020;
+        public static final int item_message_list_ll_root=0x7f090014;
+        public static final int item_message_list_tv_msgcontent=0x7f090017;
+        public static final int item_message_list_tv_time=0x7f090016;
+        public static final int item_message_list_tv_username=0x7f090015;
+        public static final int iv_app_logo=0x7f090012;
+        public static final int iv_btn_menu=0x7f090010;
+        public static final int ll_contact_menu=0x7f090011;
+        public static final int ll_contact_root_view=0x7f09000c;
+        public static final int ll_launcher_currentpage=0x7f09001c;
+        public static final int ll_rootview=0x7f090004;
+        public static final int lv_list_sample=0x7f090022;
+        public static final int lv_mList=0x7f090023;
+        public static final int message_activity_ll_new=0x7f090024;
+        public static final int message_activity_lv_msglist=0x7f090025;
+        public static final int sl_srcoll_layout=0x7f09001d;
+        public static final int textView=0x7f09001e;
+        public static final int tv_app_name=0x7f090013;
+        public static final int tv_base_title=0x7f090003;
+        public static final int tv_chatcontent=0x7f090019;
+        public static final int tv_contact_phone_number=0x7f09000f;
+        public static final int tv_contact_user_icon=0x7f09000d;
+        public static final int tv_contact_username=0x7f09000e;
+        public static final int tv_content=0x7f090026;
+        public static final int tv_jps=0x7f09000b;
+        public static final int tv_sample_datetime=0x7f09001b;
+        public static final int tv_sample_title=0x7f09001a;
+        public static final int tv_sendtime=0x7f090018;
+        public static final int tv_show_formatdate=0x7f09000a;
     }
     public static final class layout {
         public static final int aidl_activity=0x7f030000;
@@ -103,57 +115,63 @@ public final class R {
         public static final int gps_activity=0x7f030005;
         public static final int handler_activity=0x7f030006;
         public static final int item_contact_list=0x7f030007;
-        public static final int item_message_list=0x7f030008;
-        public static final int item_msg_text_left=0x7f030009;
-        public static final int item_msg_text_right=0x7f03000a;
-        public static final int item_samplelist=0x7f03000b;
-        public static final int list_item=0x7f03000c;
-        public static final int listviewselect_activity=0x7f03000d;
-        public static final int main=0x7f03000e;
-        public static final int main_activity=0x7f03000f;
-        public static final int message_activity=0x7f030010;
-        public static final int storage_activity=0x7f030011;
+        public static final int item_launcher=0x7f030008;
+        public static final int item_message_list=0x7f030009;
+        public static final int item_msg_text_left=0x7f03000a;
+        public static final int item_msg_text_right=0x7f03000b;
+        public static final int item_samplelist=0x7f03000c;
+        public static final int launcher_activity=0x7f03000d;
+        public static final int list_item=0x7f03000e;
+        public static final int listviewselect_activity=0x7f03000f;
+        public static final int main=0x7f030010;
+        public static final int main_activity=0x7f030011;
+        public static final int message_activity=0x7f030012;
+        public static final int storage_activity=0x7f030013;
     }
     public static final class string {
-        public static final int app_name=0x7f060000;
-        public static final int string_aidl_desc=0x7f060026;
-        public static final int string_aidl_time=0x7f060025;
-        public static final int string_aidl_title=0x7f060024;
-        public static final int string_bubble__name=0x7f06000a;
-        public static final int string_bubble_desc=0x7f060009;
-        public static final int string_bubble_time=0x7f060008;
-        public static final int string_bubble_title=0x7f060007;
-        public static final int string_bubblechart_mesg=0x7f060005;
-        public static final int string_bubblechart_send=0x7f060006;
-        public static final int string_common_call_back=0x7f060023;
-        public static final int string_common_cancel=0x7f060022;
-        public static final int string_common_ok=0x7f060021;
-        public static final int string_date_desc=0x7f060012;
-        public static final int string_date_time=0x7f060011;
-        public static final int string_date_title=0x7f060010;
-        public static final int string_handler_remover_desc=0x7f060018;
-        public static final int string_handler_remover_time=0x7f060017;
-        public static final int string_handler_remover_title=0x7f060016;
-        public static final int string_jps_desc=0x7f06001d;
-        public static final int string_jps_time=0x7f06001c;
-        public static final int string_jps_title=0x7f06001b;
-        public static final int string_list_show_desc=0x7f060015;
-        public static final int string_list_show_time=0x7f060014;
-        public static final int string_list_show_title=0x7f060013;
-        public static final int string_listviewselect_desc=0x7f060020;
-        public static final int string_listviewselect_time=0x7f06001f;
-        public static final int string_listviewselect_title=0x7f06001e;
-        public static final int string_message_desc=0x7f06000d;
-        public static final int string_message_name=0x7f06000e;
-        public static final int string_message_new=0x7f06000f;
-        public static final int string_message_time=0x7f06000c;
-        public static final int string_message_title=0x7f06000b;
-        public static final int string_sample_list=0x7f060001;
-        public static final int string_sample_test=0x7f060002;
-        public static final int string_sample_test_desc=0x7f060004;
-        public static final int string_sample_test_time=0x7f060003;
-        public static final int string_starthandler=0x7f060019;
-        public static final int string_stophandler=0x7f06001a;
+        public static final int app_name=0x7f070000;
+        public static final int string_aidl_desc=0x7f070027;
+        public static final int string_aidl_time=0x7f070026;
+        public static final int string_aidl_title=0x7f070025;
+        public static final int string_bubble__name=0x7f07000a;
+        public static final int string_bubble_desc=0x7f070009;
+        public static final int string_bubble_time=0x7f070008;
+        public static final int string_bubble_title=0x7f070007;
+        public static final int string_bubblechart_mesg=0x7f070005;
+        public static final int string_bubblechart_send=0x7f070006;
+        public static final int string_common_call_back=0x7f070024;
+        public static final int string_common_cancel=0x7f070023;
+        public static final int string_common_ok=0x7f070022;
+        public static final int string_date_desc=0x7f070012;
+        public static final int string_date_time=0x7f070011;
+        public static final int string_date_title=0x7f070010;
+        public static final int string_handler_remover_desc=0x7f070018;
+        public static final int string_handler_remover_time=0x7f070017;
+        public static final int string_handler_remover_title=0x7f070016;
+        public static final int string_jps_desc=0x7f07001e;
+        public static final int string_jps_time=0x7f07001d;
+        public static final int string_jps_title=0x7f07001c;
+        public static final int string_launcher_desc=0x7f07002a;
+        public static final int string_launcher_time=0x7f070029;
+        public static final int string_launcher_title=0x7f070028;
+        public static final int string_list_show_desc=0x7f070015;
+        public static final int string_list_show_time=0x7f070014;
+        public static final int string_list_show_title=0x7f070013;
+        public static final int string_listviewselect_desc=0x7f070021;
+        public static final int string_listviewselect_time=0x7f070020;
+        public static final int string_listviewselect_title=0x7f07001f;
+        public static final int string_message_desc=0x7f07000d;
+        public static final int string_message_name=0x7f07000e;
+        public static final int string_message_new=0x7f07000f;
+        public static final int string_message_time=0x7f07000c;
+        public static final int string_message_title=0x7f07000b;
+        public static final int string_sample_list=0x7f070001;
+        public static final int string_sample_test=0x7f070002;
+        public static final int string_sample_test_desc=0x7f070004;
+        public static final int string_sample_test_time=0x7f070003;
+        public static final int string_sendhandler=0x7f07001b;
+        public static final int string_starthandler=0x7f070019;
+        public static final int string_stophandler=0x7f07001a;
     }
     public static final class style {
         /** 
@@ -177,12 +195,13 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
-        public static final int custom_dialog_style=0x7f070002;
-        public static final int style_item_userinfo=0x7f070003;
+        public static final int AppTheme=0x7f080001;
+        public static final int custom_dialog_style=0x7f080002;
+        public static final int style_item_userinfo=0x7f080003;
+        public static final int style_launcher_point=0x7f080004;
     }
 }
