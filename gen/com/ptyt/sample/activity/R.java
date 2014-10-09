@@ -60,8 +60,9 @@ public final class R {
         public static final int icon_message_new=0x7f020017;
         public static final int icon_top_message=0x7f020018;
         public static final int item_contact_choose=0x7f020019;
-        public static final int page_indicate=0x7f02001a;
-        public static final int page_indicate_selected=0x7f02001b;
+        public static final int logo=0x7f02001a;
+        public static final int page_indicate=0x7f02001b;
+        public static final int page_indicate_selected=0x7f02001c;
     }
     public static final class id {
         public static final int btn_mcall_back=0x7f090002;
