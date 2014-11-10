@@ -28,7 +28,11 @@ public class SampleAdapter extends BaseAdapter {
 			R.array.sample_remover_handler,
 			R.array.sample_listviewselect_info,
 			R.array.sample_aidl_info,
-			R.array.sample_launcher_info
+			R.array.sample_launcher_info,
+			R.array.sample_add_button_info,
+			R.array.sample_custom_camera_info,
+			R.array.string_seriaPort_readorwrite,
+			R.array.string_memory_info
 	};
 	
 	public SampleAdapter(Activity act){

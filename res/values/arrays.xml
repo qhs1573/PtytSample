@@ -52,4 +52,24 @@
      	<item>@string/string_launcher_time</item>
      	<item>@string/string_launcher_desc</item>
     </string-array>
+     <string-array name="sample_add_button_info">
+        <item>@string/string_add_button_title</item>
+     	<item>@string/string_add_button_time</item>
+     	<item>@string/string_add_button_desc</item>
+    </string-array>
+    <string-array name="sample_custom_camera_info">
+        <item>@string/string_add_camera_title</item>
+     	<item>@string/string_add_camera_time</item>
+     	<item>@string/string_add_camera_desc</item>
+    </string-array>
+    <string-array name="string_seriaPort_readorwrite">
+        <item>@string/string_seriaPort_title</item>
+     	<item>@string/string_seriaPort_time</item>
+     	<item>@string/string_seriaPort_desc</item>
+    </string-array>
+     <string-array name="string_memory_info">
+        <item>@string/string_memory_title</item>
+     	<item>@string/string_memory_time</item>
+     	<item>@string/string_memory_desc</item>
+    </string-array>
 </resources>

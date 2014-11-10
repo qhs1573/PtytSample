@@ -43,4 +43,16 @@
 	<string name="string_launcher_title">Launcher主界面</string>
 	<string name="string_launcher_time">2014/9/22</string>
 	<string name="string_launcher_desc">Launcher主界面</string>
+	<string name="string_add_button_title">动态添加按钮</string>
+	<string name="string_add_button_time">2014/10/11</string>
+	<string name="string_add_button_desc">GridView 动态添加按钮并且带有动画</string>
+	<string name="string_add_camera_title">自定义的Camera</string>
+	<string name="string_add_camera_time">2014/10/18</string>
+	<string name="string_add_camera_desc">用SurfaceView 自定义的Camera（就画面清晰度的问题纠结我一周）</string>
+	<string name="string_seriaPort_title">串口读写</string>
+	<string name="string_seriaPort_time">2014/10/21</string>
+	<string name="string_seriaPort_desc">串口读写的Demo</string>
+	<string name="string_memory_title">内存查看</string>
+	<string name="string_memory_time">2014/11/10</string>
+	<string name="string_memory_desc">Android内存查看Demo</string>
 </resources>

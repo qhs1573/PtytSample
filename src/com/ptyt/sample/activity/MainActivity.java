@@ -11,7 +11,6 @@ import android.widget.ListView;
 import com.ptyt.sample.adapter.SampleAdapter;
 import com.ptyt.sample.annotation.ViewInject;
 import com.ptyt.sample.bean.Person;
-import com.ptyt.sample.dialog.BaseDialog;
 
 public class MainActivity extends BaseActivity implements OnItemClickListener,
 		OnItemLongClickListener {
@@ -92,6 +91,24 @@ public class MainActivity extends BaseActivity implements OnItemClickListener,
 			
 		case 9:
 			intent.setClass(this, LauncherActivity.class);
+			startActivity(intent);
+			break;
+		case 10:
+			intent.setClass(this, LayoutAnimationsByDefault.class);
+			startActivity(intent);
+			break;
+		case 11:
+			intent.setClass(this, CustomCameraActivity.class);
+			startActivity(intent);
+			break;
+			
+		case 12:
+			intent.setClass(this, CustomCameraActivity.class);
+			startActivity(intent);
+			break;
+		
+		case 13:
+			intent.setClass(this, MemInfoActivity.class);
 			startActivity(intent);
 			break;
 		}
