@@ -111,6 +111,11 @@ public class MainActivity extends BaseActivity implements OnItemClickListener,
 			intent.setClass(this, MemInfoActivity.class);
 			startActivity(intent);
 			break;
+			
+		case 14:
+			intent.setClass(this, TopActivity.class);
+			startActivity(intent);
+			break;
 		}
 
 	}

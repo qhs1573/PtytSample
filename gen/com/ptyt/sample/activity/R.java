@@ -28,6 +28,7 @@ public final class R {
         public static final int sample_test=0x7f050000;
         public static final int string_memory_info=0x7f05000d;
         public static final int string_seriaPort_readorwrite=0x7f05000c;
+        public static final int string_topactivity_info=0x7f05000e;
     }
     public static final class attr {
     }
@@ -152,6 +153,7 @@ public final class R {
         public static final int mem_info=0x7f030014;
         public static final int message_activity=0x7f030015;
         public static final int storage_activity=0x7f030016;
+        public static final int top_activity=0x7f030017;
     }
     public static final class string {
         public static final int app_name=0x7f070000;
@@ -209,6 +211,9 @@ public final class R {
         public static final int string_seriaPort_title=0x7f070031;
         public static final int string_starthandler=0x7f070019;
         public static final int string_stophandler=0x7f07001a;
+        public static final int string_topactivity_desc=0x7f070039;
+        public static final int string_topactivity_time=0x7f070038;
+        public static final int string_topactivity_title=0x7f070037;
     }
     public static final class style {
         /** 

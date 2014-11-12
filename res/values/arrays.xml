@@ -72,4 +72,9 @@
      	<item>@string/string_memory_time</item>
      	<item>@string/string_memory_desc</item>
     </string-array>
+     <string-array name="string_topactivity_info">
+        <item>@string/string_topactivity_title</item>
+     	<item>@string/string_topactivity_time</item>
+     	<item>@string/string_topactivity_desc</item>
+    </string-array>
 </resources>

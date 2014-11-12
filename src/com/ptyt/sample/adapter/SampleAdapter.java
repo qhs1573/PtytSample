@@ -32,7 +32,8 @@ public class SampleAdapter extends BaseAdapter {
 			R.array.sample_add_button_info,
 			R.array.sample_custom_camera_info,
 			R.array.string_seriaPort_readorwrite,
-			R.array.string_memory_info
+			R.array.string_memory_info,
+			R.array.string_topactivity_info
 	};
 	
 	public SampleAdapter(Activity act){

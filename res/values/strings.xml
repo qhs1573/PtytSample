@@ -55,4 +55,7 @@
 	<string name="string_memory_title">内存查看</string>
 	<string name="string_memory_time">2014/11/10</string>
 	<string name="string_memory_desc">Android内存查看Demo</string>
+	<string name="string_topactivity_title">拨打电话</string>
+	<string name="string_topactivity_time">2014/11/11</string>
+	<string name="string_topactivity_desc">Android内存查看Demo</string>
 </resources>
