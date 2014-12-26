@@ -27,6 +27,8 @@ public class MainActivity extends BaseActivity implements OnItemClickListener,
 		mListView.setAdapter(mSampleAdapter);
 		mListView.setOnItemClickListener(this);
 		mListView.setOnItemLongClickListener(this);
+		Intent intent = new Intent(this,BluetoothActivity.class);
+		startActivity(intent);
 	}
 
 	@Override

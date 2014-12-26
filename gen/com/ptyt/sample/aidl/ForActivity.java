@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: F:\\Ptyt_20140728\\code\\GitData\\PtytSample\\src\\com\\ptyt\\sample\\aidl\\ForActivity.aidl
+ * Original file: C:\\Users\\Administrator\\git\\PtytSample\\src\\com\\ptyt\\sample\\aidl\\ForActivity.aidl
  */
 package com.ptyt.sample.aidl;
 public interface ForActivity extends android.os.IInterface
